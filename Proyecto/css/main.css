@@ -1,0 +1,125 @@
+/* ---------- FONTS ------------ */
+
+
+/*----------- ESTRUCTURA ------------*/
+
+body {
+	background-image: url("fondo2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#c1 {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+}
+
+#c2 {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+}
+
+#c3 {
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+}
+
+#punt {
+	position: absolute;
+	top: 10px;
+	left: 1550px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+}
+
+#music {
+	position: absolute;
+	top: 10px;
+	left: 1750px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+}
+
+#preg {
+	position: absolute;
+	bottom: 300px;
+	left: 250px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 600px;
+	padding-right: 600px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#r1 {
+	position: absolute;
+	bottom: 200px;
+	left: 50px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#r2 {
+	position: absolute;
+	bottom: 60px;
+	left: 50px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#r3 {
+	position: absolute;
+	bottom: 200px;
+	left: 1150px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#r4 {
+	position: absolute;
+	bottom: 60px;
+	left: 1150px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#time {
+	position: absolute;
+	bottom: 60px;
+	left: 790px;
+	border-style: dotted;
+	border-width: 3px;
+	padding: 10px;
+	padding-top: 95px;
+	padding-bottom: 55px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
