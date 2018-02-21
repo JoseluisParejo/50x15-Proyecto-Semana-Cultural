@@ -178,3 +178,53 @@ body {
 	background-repeat: no-repeat;
 	background-size: 315px 233px;
 }
+.window {
+	width:500px; 
+  	height:300px;
+  	left:710px;
+  	top:80px;
+  	position:absolute;
+	background-image: url("../img/fondo.jpg");
+	border: 3px solid #225F98;
+	font-size: 20px;
+}
+
+.window h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #205B95;
+	line-height: 30px;
+}
+
+.window p {
+	margin: 10px;
+}
+
+.window em {
+	background-color: #FFC; 
+	display: inline;
+	line-height: 25px;
+	font-style: normal;
+}
+
+
+.start-game {
+	margin: 20px auto;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	display: block;
+	width:300px !important; 
+	font-size: 30px;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+.start-game:hover {
+	color: white;
+	border-color: white;
+	background-color: black;
+}
+#user {
+	background-color: black;
+}
