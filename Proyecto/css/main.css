@@ -185,8 +185,100 @@ body {
   	top:80px;
   	position:absolute;
 	background-image: url("../img/fondo.jpg");
-	border: 3px solid #225F98;
+	border: 3px solid white;
 	font-size: 20px;
+}
+.window2 {
+	width:500px; 
+  	height:800px;
+  	left:110px;
+  	top:80px;
+  	position:absolute;
+	background-image: url("../img/fondo.jpg");
+	border: 3px solid white;
+	font-size: 20px;
+	text-align: center;
+}
+.window3 {
+	width:500px; 
+  	height:800px;
+  	left:1310px;
+  	top:80px;
+  	position:absolute;
+	background-image: url("../img/fondo.jpg");
+	border: 3px solid white;
+	font-size: 20px;
+	text-align: center;
+}
+#twitter{
+	width:170px; 
+  	height:170px;
+  	position:absolute;
+  	left:250px;
+  	border-color: white;
+	border: 5px solid;
+	border-radius:150px;
+}
+#twitter > a > img {
+	width:120px; 
+  	height:120px;
+}
+#twitter:hover{
+	background-color: cyan;
+	border-color: black;
+}
+#facebook {
+	width:170px; 
+  	height:170px;
+  	position:absolute;
+  	border-color: white;
+	border: 5px solid;
+	border-radius:150px;
+	left:50px;
+}
+#facebook > a > img {
+	width:120px; 
+  	height:120px;
+}
+#facebook:hover{
+	background-color: blue;
+	border-color: black;
+}
+#blog {
+	width:170px; 
+  	height:170px;
+  	position:absolute;
+  	left:250px;
+  	bottom:40px;
+  	border-color: white;
+	border: 5px solid;
+	border-radius:150px;
+}
+#blog > a > img {
+	width:120px; 
+  	height:120px;
+}
+#blog:hover{
+	background-color: yellow;
+	border-color: black;
+}
+#web {
+	width:170px; 
+  	height:170px;
+  	position:absolute;
+  	bottom:40px;
+  	border-color: white;
+	border: 5px solid;
+	border-radius:150px;
+	left:50px;
+}
+#web > a > img {
+	width:120px; 
+  	height:120px;
+}
+#web:hover{
+	background-color: green;
+	border-color: black;
 }
 
 .window h2 {
@@ -194,6 +286,8 @@ body {
 	margin-bottom: 20px;
 	color: #205B95;
 	line-height: 30px;
+	left:200px;
+  	top:200px;
 }
 
 .window p {
@@ -205,8 +299,8 @@ body {
 	display: inline;
 	line-height: 25px;
 	font-style: normal;
+	text-align: center;
 }
-
 
 .start-game {
 	margin: 20px auto;
@@ -214,7 +308,7 @@ body {
 	text-decoration: none;
 	color: black;
 	display: block;
-	width:300px !important; 
+	width:300px; 
 	font-size: 30px;
 	padding: 20px;
 	border: 5px solid black;
@@ -228,3 +322,20 @@ body {
 #user {
 	background-color: black;
 }
+#login {
+	text-align: center;
+}
+#divScores {
+	background-color: black;
+	width:300px; 
+  	height:600px;
+  	left:90px;
+  	position:absolute;
+  	font-size: 20px;
+	border-color: white;
+	border: 5px solid;
+}
+#divScores > ul{
+	text-align: left;
+}
+
