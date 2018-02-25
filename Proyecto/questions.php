@@ -1,5 +1,4 @@
 <?php
-
 $arrQuestions = array(
 0 => array("id" => "0",
            "title" => "¿Cual es el dia internacional de los derechos humanos?",
@@ -10,7 +9,6 @@ $arrQuestions = array(
              3=>"31 de Junio"
            ),
            "correct_answer" => "10 de Diciembre"
-
     ),
   1 => array("id" => "1",
              "title" => "¿Que se define como derecho a la informacion?",
@@ -124,6 +122,5 @@ $arrQuestions = array(
              "correct_answer" => "Eleanor Roosevelt"
       ),
 );
-
   echo json_encode($arrQuestions);
 ?>
